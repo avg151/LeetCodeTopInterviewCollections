@@ -9,7 +9,7 @@ package array
  * extra memory.
  */
 
-class Array01RemoveDuplicatesFromSortedArray {
+class RemoveDuplicatesFromSortedArray {
 
     fun removeDuplicatesV0(nums: IntArray): Int {
         return nums.toSet().size

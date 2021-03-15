@@ -2,9 +2,9 @@ package array
 
 import org.junit.Test
 import kotlin.test.assertEquals
-import array.Array01RemoveDuplicatesFromSortedArray as Solution
+import array.RemoveDuplicatesFromSortedArray as Solution
 
-internal class Array01RemoveDuplicatesFromSortedArrayTest {
+internal class RemoveDuplicatesFromSortedArrayTest {
 
     private val input = arrayOf(0, 0, 1, 1, 1, 2, 2, 3, 3, 4).toIntArray()
     private val expected = arrayOf(0, 1, 2, 3, 4).size
