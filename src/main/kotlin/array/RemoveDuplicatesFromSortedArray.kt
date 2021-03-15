@@ -8,7 +8,6 @@ package array
  * Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1)
  * extra memory.
  */
-
 class RemoveDuplicatesFromSortedArray {
 
     fun removeDuplicatesV0(nums: IntArray): Int {

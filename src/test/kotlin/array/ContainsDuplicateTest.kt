@@ -6,17 +6,15 @@ import org.junit.Assert.*
 
 class ContainsDuplicateTest {
 
-    private val inputTrue = arrayOf(1, 1, 1, 3, 3, 4, 3, 2, 4, 2).toIntArray()
-    private val inputFalse = arrayOf(1, 2, 3, 4).toIntArray()
-
-
     @Test
     fun containsDuplicateTrue() {
+        val inputTrue = arrayOf(1, 1, 1, 3, 3, 4, 3, 2, 4, 2).toIntArray()
         assertTrue(ContainsDuplicate().containsDuplicate(inputTrue))
     }
 
     @Test
     fun containsDuplicateFalse() {
+        val inputFalse = arrayOf(1, 2, 3, 4).toIntArray()
         assertFalse(ContainsDuplicate().containsDuplicate(inputFalse))
     }
 
