@@ -10,8 +10,8 @@ import kotlin.math.min
 class IntersectionOfTwoArraysII {
 
     fun intersect(nums1: IntArray, nums2: IntArray): IntArray {
-        if (nums1.isEmpty()) return nums2
-        if (nums2.isEmpty()) return nums1
+        if (nums1.isEmpty()) return nums1
+        if (nums2.isEmpty()) return nums2
 
         val result = mutableListOf<Int>()
         val iterator1 = nums1.toSet().iterator()

@@ -24,4 +24,14 @@ class IntersectionOfTwoArraysIITest {
         assertArrayEquals(expected, IntersectionOfTwoArraysII().intersect(input1, input2))
     }
 
+    @Test
+    fun intersect2() {
+        val input1 = emptyArray<Int>().toIntArray()
+        val input2 = arrayOf(1).toIntArray()
+        val expected = emptyArray<Int>().toIntArray()
+
+        assertArrayEquals(expected, IntersectionOfTwoArraysII().intersect(input1, input2))
+    }
+
+
 }
